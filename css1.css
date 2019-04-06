@@ -1,0 +1,40 @@
+body{
+	background : #f4e000;
+}
+.border{
+	background: #0061ff;
+	margin : 0 auto;
+	color: white;
+	font-size: 11pt;
+	width: 50%;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	text-align: center;
+	font-family: monospace;
+	font-style: bold;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#0061ff;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#0061ff;
+}
+ 
+
+
+

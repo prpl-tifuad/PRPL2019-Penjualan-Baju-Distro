@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>table</title>
+<br>
+<br>
+<br>
+</head>
+<link rel="stylesheet" href="css1.css">
+<body>
+<div class="border"> <p>DATA SUPLIER</p>
+</div>
+
+<br>
+<br>
+<form align ="center">
+  <input class="search" type="text" placeholder="Cari..." required> 
+  <input class="button" type="button" value="Cari">     
+</form>
+    <table border="1" align="center">
+    <tr align="center" bgcolor=#0061ff>
+    <th width="50px">No</th>
+    <th width="150px">ID Konveksi</th>
+    <th width="100px">Nama Konveksi</th>
+    <th width="200px">Alamat</th>
+    <th width="300px">Nomer Telpon</th>
+    <th width="200px" colspan="3">Edit, Insert, Delete</th>
+ 
+    <tr>
+    <td align="center">1</td>
+    <td>5555</td>
+    <td>Ababil</td>
+    <td>Yogyakarta</td>
+    <td>0274 625998</td>
+    <td>
+                <a href="edit.html" class="edit_btn" type ="button" >Edit</a>
+            </td>
+            <td>
+                <a href="insert.html" class="del_btn">Insert</a>
+            </td>
+            <td>
+                <a href="server.php?del=<?php echo $row['id']; ?>" class="del_btn">Delete</a>
+            </td>
+        </tr>
+ 
+    <tr>
+    <td align="center">2</td>
+    <td>6666</td>
+    <td>Absolute</td>
+    <td>Yogyakarta</td>
+    <td>0274 625817</td>
+    <td>
+                <a href="edit.html" class="edit_btn" type ="button" >Edit</a>
+            </td>
+            <td>
+                <a href="insert.html" class="del_btn">Insert</a>
+            </td>
+            <td>
+                <a href="server.php?del=<?php echo $row['id']; ?>" class="del_btn">Delete</a>
+            </td>
+        </tr>         
+        </tr>
+ 
+    </tr>
+
+    <tr>
+    <td align="center">2</td>
+    <td>7777</td>
+    <td>Supreme</td>
+    <td>Magelang</td>
+    <td>0274 625887</td>
+    <td>
+                <a href="edit.html" class="edit_btn" type ="button" >Edit</a>
+            </td>
+            <td>
+                <a href="insert.html" class="del_btn">Insert</a>
+            </td>
+            <td>
+                <a href="server.php?del=<?php echo $row['id']; ?>" class="del_btn">Delete</a>
+            </td>
+        </tr>
+          
+        </tr>
+ 
+    </tr>
+
+    <tr>
+    <td align="center">2</td>
+    <td>8888</td>
+    <td>Gucci</td>
+    <td>America</td>
+    <td>0274 625837</td>
+    <td>
+                <a href="edit.html" class="edit_btn" type ="button" >Edit</a>
+            </td>
+            <td>
+                <a href="insert.html" class="del_btn">Insert</a>
+            </td>
+            <td>
+                <a href="server.php?del=<?php echo $row['id']; ?>" class="del_btn">Delete</a>
+            </td>
+        </tr>
+          
+        </tr>
+ 
+    </tr>
+
+    </tr>
+    </table>
+</body>
+</html>
